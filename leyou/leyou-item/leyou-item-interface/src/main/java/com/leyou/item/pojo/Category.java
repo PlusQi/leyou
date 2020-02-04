@@ -31,19 +31,19 @@ public class Category {
         this.name = name;
     }
 
-    public Long getIsParentId() {
+    public Long getParentId() {
         return parentId;
     }
 
-    public void setIsParentId(Long parentId) {
+    public void setParentId(Long parentId) {
         this.parentId = parentId;
     }
 
-    public Boolean getParent() {
+    public Boolean getIsParent() {
         return isParent;
     }
 
-    public void setParent(Boolean parent) {
+    public void setIsParent(Boolean parent) {
         isParent = parent;
     }
 
