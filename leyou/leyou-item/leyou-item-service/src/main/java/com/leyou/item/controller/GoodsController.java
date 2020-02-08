@@ -53,6 +53,16 @@ public class GoodsController {
         return ResponseEntity.status(HttpStatus.CREATED).build();
     }
 
+    /**
+     * 更新商品信息
+     * @param spuBo
+     * @return
+     */
+    @PutMapping("goods")
+    public ResponseEntity<Void> updateGoods(@RequestBody SpuBo spuBo) {
+        this.goodsService.updateGoods(spuBo);
+        return ResponseEntity.noContent().build();
+    }
 
     /**
      * 根据spuId查询spuDetail
