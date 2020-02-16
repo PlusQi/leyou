@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91d060a4-9305-4c6e-9fd1-f3f29f6b380f" name="Default Changelist" comment="" />
+    <list default="true" id="91d060a4-9305-4c6e-9fd1-f3f29f6b380f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -107,7 +109,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.12695312" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -221,11 +223,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -261,13 +258,7 @@
       <workItem from="1580722069391" duration="1650000" />
       <workItem from="1580724676080" duration="1785000" />
       <workItem from="1580737577002" duration="49924000" />
-    </task>
-    <task id="LOCAL-00016" summary="添加了构造方法">
-      <created>1579325361086</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1579325361086</updated>
+      <workItem from="1581430121098" duration="6471000" />
     </task>
     <task id="LOCAL-00017" summary="添加了品牌查询功能">
       <created>1579352360692</created>
@@ -605,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581345110823</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="后台系统部署">
+      <created>1581430178296</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1581430178296</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -652,14 +650,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="956" y="96" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581079285146" />
-    <state x="593" y="8" key="CommitChangelistDialog2" timestamp="1581345105062">
+    <state x="593" y="8" key="CommitChangelistDialog2" timestamp="1581430174779">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="593" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581345105062" />
-    <state x="875" y="154" key="FileChooserDialogImpl" timestamp="1580741636199">
+    <state x="593" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1581430174779" />
+    <state x="875" y="154" key="FileChooserDialogImpl" timestamp="1581600971432">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="875" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1580741636199" />
+    <state x="875" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581600971432" />
     <state width="759" height="393" key="GridCell.Tab.0.bottom" timestamp="1581362353495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -712,14 +710,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="515" y="122" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580384397872" />
-    <state x="498" y="0" key="SettingsEditor" timestamp="1579003815007">
+    <state x="498" y="0" key="SettingsEditor" timestamp="1581777486117">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579003815007" />
-    <state x="687" y="134" key="Vcs.Push.Dialog.v2" timestamp="1581345121404">
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581777486117" />
+    <state x="687" y="134" key="Vcs.Push.Dialog.v2" timestamp="1581430180614">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="687" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581345121404" />
+    <state x="687" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1581430180614" />
     <state x="860" y="100" width="572" height="624" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1580385431643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -736,10 +734,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="495" y="203" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1579707616138" />
-    <state x="356" y="112" key="new project wizard" timestamp="1580385240790">
+    <state x="356" y="84" key="new project wizard" timestamp="1581597431834">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="356" y="112" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1580385240790" />
+    <state x="356" y="84" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1581597431834" />
     <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581165218535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
