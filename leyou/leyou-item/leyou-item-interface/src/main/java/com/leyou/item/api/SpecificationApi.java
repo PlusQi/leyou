@@ -10,7 +10,7 @@ import java.util.List;
 
 
 @RequestMapping("spec")
-public interface SpecificationJApi {
+public interface SpecificationApi {
 
     /**
      * 根据条件查询规格参数
