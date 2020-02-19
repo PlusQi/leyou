@@ -68,4 +68,17 @@ public class BrandController {
         return ResponseEntity.ok(brands);
     }
 
+    /**
+     * 根据多个id查询分类名称
+     * @param id
+     * @return
+     */
+    @GetMapping("{id}")
+    public ResponseEntity<Brand> queryBrandById(@PathVariable("id")Long id){
+        Brand brand = this.brandService.queryBrandsById(id);
+        if (brand == null) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(brand);
+    }
 }
