@@ -14,7 +14,7 @@ import java.util.Map;
 public class Goods {
     @Id
     private Long id; //spuId
-    @Field(type = FieldType.Text, analyzer = "ik_max_work")
+    @Field(type = FieldType.Text, analyzer = "ik_max_word")
     private String all; //所有需要被搜索的信息，包含标题、分类、品牌
     @Field(type = FieldType.Keyword, index = false)
     private String subTitle;//卖点
