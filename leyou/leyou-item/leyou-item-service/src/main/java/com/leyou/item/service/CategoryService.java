@@ -24,7 +24,7 @@ public class CategoryService {
         return this.categoryMapper.select(record);
     }
 
-    public List<String> queryNameByIds(List<Long> ids) {
+    public List<String> queryNamesByIds(List<Long> ids) {
         List<Category> categories = this.categoryMapper.selectByIdList(ids);
         return categories.stream().map(category -> category.getName()).collect(Collectors.toList());
     }
