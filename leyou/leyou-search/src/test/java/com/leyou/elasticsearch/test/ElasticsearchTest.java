@@ -2,6 +2,7 @@ package com.leyou.elasticsearch.test;
 
 import com.leyou.common.pojo.PageResult;
 import com.leyou.item.bo.SpuBo;
+import com.leyou.item.pojo.Spu;
 import com.leyou.search.client.GoodsClient;
 import com.leyou.search.pojo.Goods;
 import com.leyou.search.respository.GoodsRepository;
