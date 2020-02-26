@@ -66,6 +66,7 @@ public class SearchService {
         return new PageResult<>(goodsPage.getTotalElements(), goodsPage.getTotalPages(), goodsPage.getContent());
     }
 
+
     public Goods buildGoods(Spu spu) throws IOException {
         Goods goods = new Goods();
 
