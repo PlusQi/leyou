@@ -11,8 +11,7 @@ spring:
     virtual-host: /leyou
     username: leyou
     password: leyou
-    template:
-      exchange: leyou.item.exchange
+
 
 eureka:
   client:
